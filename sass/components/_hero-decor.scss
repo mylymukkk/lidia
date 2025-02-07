@@ -1,0 +1,54 @@
+.hero {
+  position: relative;
+}
+
+.hero__container::after,
+.hero__container::before {
+  content: "";
+
+  position: absolute;
+
+  bottom: 0%;
+  width: 100vw;
+  height: 150%;
+
+  background: var(--accentColor);
+  box-shadow: 0 30px 60px rgba(71, 74, 87, 0.25);
+
+  transform-origin: left bottom;
+}
+
+.hero__container::before {
+  left: 85%;
+  transform: skewX(-10deg);
+  border-bottom-left-radius: 30px;
+
+  z-index: -2;
+
+  @media screen and (min-width: 560px) {
+    left: 60%;
+    transform: skewX(-25deg);
+    border-bottom-left-radius: 50px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    left: calc(50% + 10px);
+  }
+}
+
+.hero__container::after {
+  left: 120%;
+  transform: skewX(15deg);
+  border-bottom-left-radius: 30px;
+
+  z-index: -1;
+
+  @media screen and (min-width: 560px) {
+    left: calc(50% + 600px);
+    transform: skewX(35deg);
+  }
+
+  @media screen and (min-width: 1200px) {
+    left: calc(50% + 450px);
+  }
+}

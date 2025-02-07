@@ -1,0 +1,29 @@
+<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <symbol id="icon-menu" viewBox="0 0 32 32">
+      <path d="M4 24v-2.667h24V24H4zm0-6.667v-2.667h24v2.667H4zm0-6.666V8h24v2.667H4z"/>
+    </symbol>
+    <symbol id="icon-close" viewBox="0 0 32 32">
+      <path d="m8.533 25.333-1.867-1.867 7.467-7.467-7.467-7.467 1.867-1.867L16 14.132l7.467-7.467 1.867 1.867-7.467 7.467 7.467 7.467-1.867 1.867L16 17.866l-7.467 7.467z"/>
+    </symbol>
+    <symbol id="icon-search" viewBox="0 0 32 32">
+      <path stroke-linejoin="round" stroke-linecap="round" stroke-width="3.556" d="M14.667 25.333c5.891 0 10.667-4.776 10.667-10.667S20.558 3.999 14.667 3.999 4 8.775 4 14.666s4.776 10.667 10.667 10.667zM28 28l-5.8-5.8"/>
+    </symbol>
+    <symbol id="icon-message" viewBox="0 0 32 32">
+      <path stroke-linejoin="round" stroke-linecap="round" stroke-width="3.556" d="M27.556 15.6a11.175 11.175 0 0 1-1.2 5.067 11.33 11.33 0 0 1-10.134 6.266 11.175 11.175 0 0 1-5.067-1.2l-7.6 2.533 2.533-7.6a11.175 11.175 0 0 1-1.2-5.067 11.33 11.33 0 0 1 6.266-10.134 11.175 11.175 0 0 1 5.067-1.2h.667a11.305 11.305 0 0 1 10.666 10.666v.667z"/>
+    </symbol>
+    <symbol id="icon-heart" viewBox="0 0 32 32">
+      <path stroke-linejoin="round" stroke-linecap="round" stroke-width="3.556" d="M27.144 6.416a7.345 7.345 0 0 0-5.187-2.15 7.33 7.33 0 0 0-5.187 2.15l-1.413 1.413-1.413-1.413a7.333 7.333 0 0 0-10.374 0 7.333 7.333 0 0 0 0 10.374l11.787 11.787L27.144 16.79a7.345 7.345 0 0 0 2.149-5.187c0-.963-.19-1.917-.558-2.807s-.909-1.699-1.591-2.38z"/>
+    </symbol>
+    <symbol id="icon-facebook" viewBox="0 0 32 32">
+      <path stroke-linejoin="round" stroke-linecap="round" stroke-width="3.368" d="M24 1.965h-4.211a7.017 7.017 0 0 0-7.017 7.017v4.211H8.561v5.614h4.211v11.228h5.614V18.807h4.211l1.404-5.614h-5.614V8.982a1.403 1.403 0 0 1 1.403-1.403h4.211V1.965z"/>
+    </symbol>
+    <symbol id="icon-instagram" viewBox="0 0 32 32">
+      <path stroke-linejoin="round" stroke-linecap="round" stroke-width="3.122" d="M22.504 2.992H9.496a6.504 6.504 0 0 0-6.504 6.504v13.008a6.504 6.504 0 0 0 6.504 6.504h13.008a6.504 6.504 0 0 0 6.504-6.504V9.496a6.504 6.504 0 0 0-6.504-6.504z"/>
+      <path stroke-linejoin="round" stroke-linecap="round" stroke-width="3.122" d="M21.203 15.181a5.201 5.201 0 0 1-8.826 4.442 5.203 5.203 0 1 1 8.826-4.442zM23.154 8.846h.013"/>
+    </symbol>
+    <symbol id="icon-twitter" viewBox="0 0 32 32">
+      <path stroke-linejoin="round" stroke-linecap="round" stroke-width="3.2" d="M30.667 4a14.53 14.53 0 0 1-4.187 2.04 5.975 5.975 0 0 0-6.637-1.661A5.979 5.979 0 0 0 16 10.04v1.333a14.211 14.211 0 0 1-12-6.04s-5.333 12 6.667 17.333a15.519 15.519 0 0 1-9.333 2.667c12 6.667 26.667 0 26.667-15.333a5.966 5.966 0 0 0-.107-1.107A10.288 10.288 0 0 0 30.667 4z"/>
+    </symbol>
+  </defs>
+</svg>

@@ -1,0 +1,31 @@
+.scroll-to-top-btn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+
+  z-index: 50;
+
+  display: none;
+  justify-content: center;
+  align-items: center;
+
+  width: 40px;
+  height: 40px;
+
+  background-color: #f4f6f863;
+  color: var(--accentColor);
+
+  border: none;
+  border-radius: 50%;
+
+  font-size: 24px;
+
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow var(--transition), transform var(--transition);
+
+  &:hover,
+  &:focus {
+    transform: scale(1.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+}
